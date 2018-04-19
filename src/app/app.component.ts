@@ -17,7 +17,7 @@ import { ProductService } from "./products/product.service";
     <router-outlet></router-outlet>
   </div>
   `,
-  providers: [ProductService],
+  providers: [],
 })
 export class AppComponent {
   pageTitle = "Acme Product Management";
